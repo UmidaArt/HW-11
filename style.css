@@ -1,0 +1,52 @@
+body {
+    background: repeating-radial-gradient(transparent 0, transparent 40%, white 40%, white 41%)
+    center center/2em 2em, #99DFD7
+
+}
+section {
+    margin: 20px;
+}
+h2 {
+   text-transform: uppercase;
+}
+.row {
+    width: 500px;
+    height: 500px;
+    border: 2px solid dimgray;
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    grid-template-columns: repeat(5,1fr);
+    margin: 40px;
+}
+.col {
+    border: 2px solid dimgray;
+
+}
+.lightgreen {
+    background: dimgray;
+}
+.box {
+    width: 200px;
+    height: 150px;
+    border: 3px solid dimgray;
+    margin: 20px;
+}
+button {
+    margin: 20px;
+    padding: 10px 30px;
+}
+.btnDivs {
+    display: flex;
+}
+.red {
+    background: red;
+}
+.blue {
+    background: blue;
+}
+.oval {
+    border-radius: 70%;
+}
+.input {
+    padding: 10px 30px;
+}
